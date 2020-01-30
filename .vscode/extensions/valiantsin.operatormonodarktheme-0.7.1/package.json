@@ -1,0 +1,33 @@
+{
+	"name": "operatormonodarktheme",
+	"displayName": "OperatorMonoDarkTheme",
+	"description": "Operator Mono",
+	"icon": "icon.png",
+	"version": "0.7.1",
+	"publisher": "Valiantsin",
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Operator Mono Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_plus.json"
+			}
+		]
+	},
+	"homepage": "https://github.com/vharadkou/OperatorMonoDarkTheme/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vharadkou/OperatorMonoDarkTheme.git"
+	},
+	"__metadata": {
+		"id": "9768b072-5383-47ca-bff6-d4945d0474c6",
+		"publisherId": "9ac2ad56-f667-4f73-8fa0-34e31e4addfd",
+		"publisherDisplayName": "Valiantsin"
+	}
+}

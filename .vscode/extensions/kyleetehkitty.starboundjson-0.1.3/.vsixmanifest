@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="StarboundJson" Version="0.1.3" Publisher="KyleeTehKitty"/>
+    <DisplayName>Starbound JSON File Syntax</DisplayName>
+    <Description xml:space="preserve">Json syntax support for Starbound content files. (.object, .recipe, etc..)</Description>
+    <Tags>Starbound,json,Starbound JSON,starbound-json,__ext_.config,__ext_.modinfo,__ext_.object,__ext_.item,__ext_.head,__ext_.body,__ext_.back,__ext_.legs,__ext_.chest,__ext_.frames,__ext_.aicommand,__ext_.aimission,__ext_.animation,__ext_.biome,__ext_.cinematic,__ext_.codex,__ext_.codexitem,__ext_.damage,__ext_.eddectsource,__ext_.unlock,__ext_.liqitem,__ext_.coinitem,__ext_.sword,__ext_.consumable,__ext_.gun,__ext_.instrument,__ext_.matitem,__ext_.generatedshield,__ext_.staff,__ext_.thrownitem,__ext_.flashlight,__ext_.grapplinghook,__ext_.harvestingtool,__ext_.paintool,__ext_.beamaxe,__ext_.miningtool,__ext_.tillingtool,__ext_.functions,__ext_.monstertype,__ext_.monsterpart,__ext_.monsterskill,__ext_.namesource,__ext_.npctype,__ext_.parallax,__ext_.particle,__ext_.particlesource,__ext_.modularfoliage,__ext_.modularstem,__ext_.projectile,__ext_.questtemplate,__ext_.recipe,__ext_.species,__ext_.statuseffect,__ext_.tech,__ext_.techitem,__ext_.terrain,__ext_.ridgeblocks,__ext_.material,__ext_.matmod,__ext_.treasurepools,__ext_.weather,__ext_.patch,__ext_.old,__ext_.disabled,__ext_.behavior,__ext_.configfunctions,__ext_.cursor,__ext_.dungeon,__ext_.effectsource,__ext_.activeitem,__ext_.weaponcolors,__ext_.combofinisher,__ext_.altability,__ext_.wiretool,__ext_.liquid,__ext_.monstercolors,__ext_.partparams,__ext_.bush,__ext_.grass,__ext_.structure,__ext_.spawntypes,__ext_.stagehand,__ext_.tenant,__ext_.treasurechests,__ext_.vehicle,__ext_.achievement,__ext_.event,__ext_.itemdescription,__ext_.tooltip,__ext_.radiomessages,__ext_.metadata</Tags>
+    <Categories>Languages</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#2d2c2d" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+    </Properties>
+    
+    <Icon>extension/images/StarboundJson.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/StarboundJson.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
