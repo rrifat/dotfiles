@@ -1,0 +1,70 @@
+{
+    "workbench.colorTheme": "Andromeda",
+    "explorer.openEditors.visible": 0,
+    // "editor.fontFamily": "Inconsolata",
+    // "editor.fontFamily": "agave",
+    // "editor.fontFamily": "Operator Mono",
+    // "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "Input Mono",
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 28,
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[css]": {
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        // "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": true,
+    // "eslint.alwaysShowStatus": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorCustomizations": {
+        "tab.inactiveForeground": "#fc1e01fd"
+    },
+    "editor.renderIndentGuides": false,
+    "workbench.activityBar.visible": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "custom",
+    "editor.suggestSelection": "first",
+    "emojisense.languages": {
+        "markdown": true,
+        "git-commit": true,
+        "javascript": true,
+        "html":true
+    },
+    "workbench.settings.useSplitJSON": true,
+    "emojisense.markupCompletionsEnabled": false,
+    "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+
+    "editor.cursorStyle": "underline",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    
+
+    "editor.renderWhitespace": "all",
+    "typescript.referencesCodeLens.enabled": false,
+    "editor.fontLigatures": false,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.settings.editor": "json"
+}
